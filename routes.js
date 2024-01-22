@@ -34,5 +34,10 @@ const routeHandler =(req,res)=>{
     }
 }
 
-module.exports = routeHandler;
+// module.exports = routeHandler;
+
+module.exports ={
+    setRoute:routeHandler,
+    someText:"some text"
+}
 
